@@ -3,7 +3,7 @@ export function manageFriends(state, action){
     case 'ADD_FRIEND' :
       return 
     case 'REMOVE_FRIEND' :
-      return {}
+      return {friends}
     default: {friends: []}
     }
   }
