@@ -1,3 +1,6 @@
 export function manageFriends(state, action){
-  switch
-}
+  switch (action.type) {
+    case 'ADD_FRIEND'
+    default: {friends: []
+    }
+  }
